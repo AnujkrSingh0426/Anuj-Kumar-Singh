@@ -523,7 +523,7 @@ img {
 
 .school-image {
     width: 100%;
-    height: 420px;
+    /* height: 420px; Removed fixed height to prevent zooming/cropping */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -535,9 +535,10 @@ img {
 
 .school-image img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+    height: auto;
+    /* Allow natural height */
+    /* object-fit: cover; Removed to prevent zooming/cropping */
+    /* object-position: center; */
 }
 
 .school-details {
@@ -758,11 +759,11 @@ img {
     }
 
     .school-image {
-        height: 300px;
+        height: auto;
     }
 
     .school-image img {
-        height: 300px;
+        height: auto;
     }
 }
 
@@ -826,11 +827,7 @@ img {
     }
 }
 
-background: transparent;
-/* remove background */
-border: none;
-/* remove border */
-}
+
 
 .school-title {
     font-size: 2rem;
@@ -856,10 +853,10 @@ border: none;
     }
 
     .school-image {
-        height: 300px;
+        height: auto;
     }
 
     .school-image img {
-        height: 300px;
+        height: auto;
     }
 }
