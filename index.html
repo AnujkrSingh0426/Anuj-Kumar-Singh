@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuj Kumar Singh | Full Stack Web Developer</title>
+    <meta name="description"
+        content="Portfolio of Anuj Kumar Singh, a Full Stack Web Developer specializing in modern web technologies.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">Anuj Kumar Singh</a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="theme-toggle" aria-label="Toggle Dark Mode"><i class="fas fa-moon"></i></button></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero section">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="subtitle">Hello, I'm</p>
+                    <h1 class="title">Anuj Kumar Singh</h1>
+                    <h2 class="role">Full Stack Web Developer</h2>
+                    <p class="description">I build pixel-perfect, accessible, and performant web experiences.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">GitHub</a>
+                        <a href="CV.html" class="btn btn-secondary" target="_blank">Download CV</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- Placeholder for hero image. actual image to be replaced or generated -->
+                    <div class="image-placeholder"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hi, I’m a web developer passionate about building responsive, user-friendly, and performance-focused web applications. I specialize in frontend development using HTML, CSS, JavaScript, Bootstrap, and Tailwind CSS, and I’m actively learning backend technologies and SQL databases to grow as a full-stack developer. I enjoy working on real-world projects, improving UI/UX, and writing clean, maintainable code. My goal is to create digital solutions that are practical, scalable, and impactful.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <!-- Frontend -->
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-items">
+                            <div class="skill-item"><i class="fab fa-html5"></i> HTML</div>
+                            <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS</div>
+                            <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
+                            <div class="skill-item"><i class="fab fa-react"></i> React</div>
+                            <div class="skill-item"><i class="fab fa-bootstrap"></i> Bootstrap</div>
+                            <div class="skill-item"><i class="fab fa-tailwind"></i> Tailwind </div>
+                        </div>
+                    </div>
+                    <!-- Backend -->
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-items">
+                            <div class="skill-item"><i class="fab fa-node"></i> Node.js</div>
+                            <div class="skill-item"><i class="fas fa-database"></i> SQL</div>
+                        </div>
+                    </div>
+                    <!-- Tools -->
+                    <div class="skill-category">
+                        <h3>Tools</h3>
+                        <div class="skill-items">
+                            <div class="skill-item"><i class="fab fa-git-alt"></i> Git</div>
+                            <div class="skill-item"><i class="fab fa-figma"></i> Figma</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+
+                <!-- Project Row: SBS Academy School -->
+                <div class="school-container">
+                    <div class="school-image">
+                        <img src="Screenshot 2026-01-13 131926.png" alt="SBS Academy School" />
+                    </div>
+                    <div class="school-details">
+                        <div class="project-content">
+                            <h3>SBS Academy School</h3>
+                            <p>K-12 School focused on holistic development with comprehensive digital presence.</p>
+                            <ul class="tech-stack">
+                                <li>React</li>
+                                <li>Node.js</li>
+                                <li>MongoDB</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                                <a href="https://sbs-academy-school.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Row: Owner2Tenant -->
+                <div class="school-container">
+                    <div class="school-image">
+                        <img src="O2T  img.png" alt="Owner2Tenant" />
+                    </div>
+                    <div class="school-details">
+                        <div class="project-content">
+                            <h3>Owner2Tenant</h3>
+                            <p>A property management platform connecting property owners with tenants seamlessly.</p>
+                            <ul class="tech-stack">
+                                <li>React</li>
+                                <li>Node.js</li>
+                                <li>MongoDB</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                                <a href="https://owner2tenant.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Row: Portfolio -->
+                <div class="school-container">
+                    <div class="school-image">
+                        <img src="AKS Porfolio.png" alt="Portfolio" />
+                    </div>
+                    <div class="school-details">
+                        <div class="project-content">
+                            <h3>Portfolio</h3>
+                            <p>A personal portfolio website showcasing projects, skills, and experience.</p>
+                            <ul class="tech-stack">
+                                <li>React</li>
+                                <li>Node.js</li>
+                                <li>MongoDB</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Row: Online Crime Reporting -->
+                <div class="school-container">
+                    <div class="school-image">
+                        <img src="OCReport.png" alt="Online Crime Reporting" />
+                    </div>
+                    <div class="school-details">
+                        <div class="project-content">
+                            <h3>Online Crime Reporting</h3>
+                            <p>A platform for citizens to report crimes and access incident tracking information.</p>
+                            <ul class="tech-stack">
+                                <li>React</li>
+                                <li>Node.js</li>
+                                <li>MongoDB</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                                <a href="https://online-crime-reporting.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Row: My Driver -->
+                <div class="school-container">
+                    <div class="school-image">
+                        <img src="MYDriver.png" alt="My Driver" />
+                    </div>
+                    <div class="school-details">
+                        <div class="project-content">
+                            <h3>My Driver</h3>
+                            <p>A ride-sharing application connecting drivers and passengers for convenient transportation.</p>
+                            <ul class="tech-stack">
+                                <li>React</li>
+                                <li>Node.js</li>
+                                <li>MongoDB</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                                <a href="https://my-driver-nu.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Row: Saaki -->
+                <div class="school-container">
+                    <div class="school-image">
+                        <img src="Screenshot 2026-01-13 130618.png" alt="Saaki - Premium Liqueurs and Spirits" />
+                    </div>
+                    <div class="school-details">
+                        <div class="project-content">
+                            <h3>Saaki - Premium Liqueurs and Spirits</h3>
+                            <p>A comprehensive e-commerce platform with advanced features and seamless user experience.
+                            </p>
+                            <ul class="tech-stack">
+                                <li>React</li>
+                                <li>Node.js</li>
+                                <li>MongoDB</li>
+                            </ul>
+                            <div class="project-links">
+                                 <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                                <a href="https://share.google/L9yY1WSXl6Ihgo6y8" target="_blank"><i
+                                        class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:hello@johndoe.com">hello@johndoe.com</a>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Anuj Kumar Singh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
